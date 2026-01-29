@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="talentsage.Login"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="API Tests">
+    <packages>
+      <package name="talentsage.API"/>
+    </packages>
+  </test> <!-- API Tests -->
+</suite> <!-- Failed suite [Suite] -->

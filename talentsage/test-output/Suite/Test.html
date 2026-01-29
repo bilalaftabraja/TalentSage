@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 29 01:18:14 PST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>20 seconds (20819 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='talentsage.Login.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: talentsage.Login<br/>
+<a href="#Output-58890945" onClick='toggleBox("Output-58890945", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-58890945" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-58890945">
+*** Test Case No. 1- Starting INVALID login test ***<br/>
+Step NO.1 Entered invalid username<br/>
+Step NO.2 Entered invalid password<br/>
+Step NO.3  Clicked login button<br/>
+Error message displayed: Your username is invalid!
+×<br/>
+✅ INVALID login test PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>talentsage.Login@57bc27f5</td></tr>
+<tr>
+<td title='talentsage.Login.validLoginTest()'><b>validLoginTest</b><br>Test class: talentsage.Login<br/>
+<a href="#Output-879311295" onClick='toggleBox("Output-879311295", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-879311295" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-879311295">
+***  Test Case No. 2- Starting VALID login test ***<br/>
+Starting VALID login test<br/>
+Step NO.1 Entered valid username<br/>
+Step NO.2 Entered valid password<br/>
+Step NO.3 Clicked login button<br/>
+Success message displayed: You logged into a secure area!
+×<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>talentsage.Login@57bc27f5</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[**Launching Chrome browser**]]>
+    </line>
+    <line>
+      <![CDATA[*** Test Case No. 1- Starting INVALID login test ***]]>
+    </line>
+    <line>
+      <![CDATA[Step NO.1 Entered invalid username]]>
+    </line>
+    <line>
+      <![CDATA[Step NO.2 Entered invalid password]]>
+    </line>
+    <line>
+      <![CDATA[Step NO.3  Clicked login button]]>
+    </line>
+    <line>
+      <![CDATA[Error message displayed: Your username is invalid!
+×]]>
+    </line>
+    <line>
+      <![CDATA[✅ INVALID login test PASSED]]>
+    </line>
+    <line>
+      <![CDATA[***  Test Case No. 2- Starting VALID login test ***]]>
+    </line>
+    <line>
+      <![CDATA[Starting VALID login test]]>
+    </line>
+    <line>
+      <![CDATA[Step NO.1 Entered valid username]]>
+    </line>
+    <line>
+      <![CDATA[Step NO.2 Entered valid password]]>
+    </line>
+    <line>
+      <![CDATA[Step NO.3 Clicked login button]]>
+    </line>
+    <line>
+      <![CDATA[Success message displayed: You logged into a secure area!
+×]]>
+    </line>
+    <line>
+      <![CDATA[Closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-01-29T10:22:50Z" name="Automation Suite" finished-at="2026-01-29T10:23:10Z" duration-ms="20236">
+    <groups>
+    </groups>
+    <test started-at="2026-01-29T10:22:50Z" name="UI Tests" finished-at="2026-01-29T10:23:04Z" duration-ms="13383">
+      <class name="talentsage.UI.Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:talentsage.UI.Login@5be6e01c]" started-at="2026-01-29T02:22:50Z" name="setUp" finished-at="2026-01-29T02:22:55Z" duration-ms="4545" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[**Launching Chrome browser**]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginTest()[pri:1, instance:talentsage.UI.Login@5be6e01c]" started-at="2026-01-29T02:22:55Z" name="invalidLoginTest" finished-at="2026-01-29T02:23:02Z" duration-ms="6929" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[*** Test Case No. 1- Starting INVALID login test ***]]>
+            </line>
+            <line>
+              <![CDATA[Step NO.1 Entered invalid username]]>
+            </line>
+            <line>
+              <![CDATA[Step NO.2 Entered invalid password]]>
+            </line>
+            <line>
+              <![CDATA[Step NO.3  Clicked login button]]>
+            </line>
+            <line>
+              <![CDATA[Error message displayed: Your username is invalid!
+×]]>
+            </line>
+            <line>
+              <![CDATA[✅ INVALID login test PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="validLoginTest()[pri:2, instance:talentsage.UI.Login@5be6e01c]" started-at="2026-01-29T02:23:02Z" name="validLoginTest" finished-at="2026-01-29T02:23:03Z" duration-ms="1470" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[***  Test Case No. 2- Starting VALID login test ***]]>
+            </line>
+            <line>
+              <![CDATA[Starting VALID login test]]>
+            </line>
+            <line>
+              <![CDATA[Step NO.1 Entered valid username]]>
+            </line>
+            <line>
+              <![CDATA[Step NO.2 Entered valid password]]>
+            </line>
+            <line>
+              <![CDATA[Step NO.3 Clicked login button]]>
+            </line>
+            <line>
+              <![CDATA[Success message displayed: You logged into a secure area!
+×]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:talentsage.UI.Login@5be6e01c]" started-at="2026-01-29T02:23:03Z" name="tearDown" finished-at="2026-01-29T02:23:04Z" duration-ms="410" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- talentsage.UI.Login -->
+    </test> <!-- UI Tests -->
+    <test started-at="2026-01-29T10:23:04Z" name="API Tests" finished-at="2026-01-29T10:23:10Z" duration-ms="6748">
+      <class name="talentsage.API.API">
+        <test-method is-config="true" signature="setup()[pri:0, instance:talentsage.API.API@4b0b0854]" started-at="2026-01-29T02:23:04Z" name="setup" finished-at="2026-01-29T02:23:05Z" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateCreatePostApi()[pri:0, instance:talentsage.API.API@4b0b0854]" started-at="2026-01-29T02:23:05Z" name="validateCreatePostApi" finished-at="2026-01-29T02:23:10Z" duration-ms="5885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatePostApi -->
+      </class> <!-- talentsage.API.API -->
+    </test> <!-- API Tests -->
+  </suite> <!-- Automation Suite -->
+</testng-results>
